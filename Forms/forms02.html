@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function mostrar() {
+    let nombre = document.fdatos.nombre.value;
+    let edad = document.fdatos.edad.value;
+    document.writeln(`Hola ${nombre}, tienes ${edad} años`);
+}
+</script>
+</head>
+<body>
+<form name="fdatos">
+    Nombre: <input type="text" name="nombre"><br>
+    Edad: <input type="text" name="edad"><br>
+    <input type="button" value="Aceptar" onclick="mostrar()">
+</form>
+</body>
+</html>

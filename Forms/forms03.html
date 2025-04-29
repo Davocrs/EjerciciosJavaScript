@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function mostrar() {
+    let nombre = document.getElementById("nombre").value;
+    let edad = document.getElementById("edad").value;
+    document.writeln(`Hola ${nombre}, tienes ${edad} años`);
+}
+</script>
+</head>
+<body>
+<form>
+    Nombre: <input type="text" id="nombre"><br>
+    Edad: <input type="text" id="edad"><br>
+    <input type="button" value="Aceptar" onclick="mostrar()">
+</form>
+</body>
+</html>
