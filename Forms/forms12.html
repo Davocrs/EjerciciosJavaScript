@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validarEdad() {
+    let edad = parseInt(document.getElementById("edad").value);
+    let salida = document.getElementById("mensaje");
+    if (edad >= 18) {
+        salida.innerHTML = "Puedes continuar";
+    } else {
+        salida.innerHTML = "No tienes la edad suficiente";
+    }
+}
+</script>
+</head>
+<body>
+Edad: <input type="number" id="edad">
+<input type="button" value="Validar" onclick="validarEdad()">
+<p id="mensaje"></p>
+</body>
+</html>

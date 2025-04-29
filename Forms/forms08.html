@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function comprobar() {
+    let mayor = document.getElementById("edad").checked;
+    let resultado = document.getElementById("resultado");
+    if (mayor) {
+        resultado.innerHTML = "Eres mayor de edad";
+    } else {
+        resultado.innerHTML = "Lo sentimos. No puedes entrar";
+    }
+}
+</script>
+</head>
+<body>
+<form>
+    <input type="checkbox" id="edad"> Soy mayor de edad<br>
+    <input type="button" value="Enviar" onclick="comprobar()">
+</form>
+<p id="resultado"></p>
+</body>
+</html>

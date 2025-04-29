@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function mostrarImagen() {
+    let valor = document.getElementById("opciones").value;
+    document.getElementById("imagen").src = valor;
+}
+</script>
+</head>
+<body>
+<select id="opciones" onchange="mostrarImagen()">
+    <option value="https://via.placeholder.com/100?text=Gato">Gato</option>
+    <option value="https://via.placeholder.com/100?text=Perro">Perro</option>
+</select>
+<br><br>
+<img id="imagen" src="" alt="Imagen seleccionada">
+</body>
+</html>

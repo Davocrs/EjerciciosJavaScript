@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function procesar() {
+    let nombre = document.getElementById("nombre").value;
+    let edad = document.getElementById("edad").value;
+    let color = document.getElementById("color").value;
+    let salida = `Hola ${nombre}, tienes ${edad} años y tu color favorito es ${color}`;
+    document.getElementById("resultado").innerHTML = salida;
+}
+</script>
+</head>
+<body>
+<form>
+    Nombre: <input type="text" id="nombre"><br>
+    Edad: <input type="number" id="edad"><br>
+    Color favorito: <input type="color" id="color"><br>
+    <input type="button" value="Procesar" onclick="procesar()">
+</form>
+<p id="resultado"></p>
+</body>
+</html>

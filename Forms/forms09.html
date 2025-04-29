@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function mostrarColor() {
+    let seleccion = document.getElementById("colores").value;
+    document.body.style.backgroundColor = seleccion;
+}
+</script>
+</head>
+<body>
+<select id="colores" onchange="mostrarColor()">
+    <option value="white">Blanco</option>
+    <option value="lightblue">Celeste</option>
+    <option value="lightgreen">Verde</option>
+    <option value="lightpink">Rosa</option>
+</select>
+</body>
+</html>
