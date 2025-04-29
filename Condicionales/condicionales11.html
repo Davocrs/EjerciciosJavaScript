@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<script>
+    let origen = prompt("Ciudad de origen?");
+    let destino = prompt("Ciudad de destino?");
+    let descuento = 0;
+
+    if (origen.toLowerCase() == "palma") {
+        if (destino.toLowerCase() == "barcelona") descuento = 5;
+        else if (destino.toLowerCase() == "madrid") descuento = 10;
+        else if (destino.toLowerCase() == "valencia") descuento = 15;
+    }
+
+    document.write(`El descuento es del ${descuento}%`);
+</script>
+</html>

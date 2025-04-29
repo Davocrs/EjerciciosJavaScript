@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio3</title>
     <script>
-        
+        let nota1 = parseInt(prompt("Nota 1", "0"));
+        let nota2 = parseInt(prompt("Nota 2", "0"));
+        let nota3 = parseInt(prompt("Nota 3", "0"));
+        let media = (nota1 + nota2 + nota3) / 3;
+        let resultat = (media >= 5) ? "Aprobado" : "Suspendido";
+    document.write(`<h3>La nota final es ${resultat}</h3>`);
     </script>
 </head>
 <body>

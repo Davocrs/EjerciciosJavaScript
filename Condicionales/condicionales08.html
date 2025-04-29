@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"></head>
+<script>
+    let marca = prompt("Marca?", "0");
+    let modelo = prompt("Modelo?", "0");
+    let descuento = 0;
+
+    if (marca == "ford") {
+        if (modelo == "fiesta") {
+            descuento = 5;
+        } else {
+            descuento = 10;
+        }
+    }
+
+    document.write(`<h3>Su descuento es ${descuento}%</h3>`);
+</script>
+</html>
