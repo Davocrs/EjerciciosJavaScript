@@ -1,6 +1,6 @@
 # 🧠 Ejercicios de JavaScript ES6 – Parte 1
 
-Este repositorio contiene **ejercicios resueltos** en HTML y JavaScript ES6, extraídos del PDF _“javascript-es6-ejercicios-resueltos-parte-1”_. Están organizados por temas y numerados para que puedas probarlos fácilmente en tu navegador o editor favorito como Visual Studio Code.
+Este repositorio contiene **ejercicios resueltos** en HTML y JavaScript ES6, extraídos del PDF _“javascript-es6-ejercicios-resueltos-parte-1”_. Están organizados por temas y numerados para que puedas probarlos fácilmente en tu navegador o editor favorito como Visual Studio Code. 
 
 ---
 
