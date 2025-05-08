@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="pares"></p>
+<script>
+    let resultado = "";
+    for (let i = 1; i <= 10; i++) {
+        if (i % 2 === 0) {
+            resultado += `Número par: ${i}<br>`;
+        }
+    }
+    document.getElementById("pares").innerHTML = resultado;
+</script>
+</body>
+</html>
